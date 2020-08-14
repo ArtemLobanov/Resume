@@ -2,8 +2,47 @@ body {
   font-size: 16px;
   padding: 0px;
   margin: 0px;
+  background-color: #CFDFDAFF;
+}
+
+.container {
+	width: 1200px;
+	max-width: 100%;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	box-shadow:  8px 8px 27px 0px #17304220;
 }
 
 .header {
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	height: 220px;
+}
+
+.avatar-block {
+	width: 220px;
+	min-width: 220px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.info-top {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background-color: #F5FDFB;
 }
