@@ -72,7 +72,7 @@ li {
 }
 
 .container {
-  width: 1200px;
+  width: 1100px;
   max-width: 100%;
   background-color: #fff;
   margin-left: auto;
@@ -162,7 +162,7 @@ li {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   padding-top: 40px;
 }
 .section {
@@ -207,14 +207,14 @@ li {
   min-width: 300px;
 }
 .line-skill {
-  background-color: #E0EAE7FF;
+  background-color: #DDE6E8FF;
   width: 90%;
   height: 6px;
   margin-bottom: 20px;
 }
 .line-active {
   width: 50%;
-  background-color: #51AD91FF;
+  background-color: #4EA0A6FF;
   height: 100%;
 }
 
@@ -238,39 +238,55 @@ li {
 }
 
 .xd {
-  width: 85%;
+  width: 150%;
+  background-color: #D53333FF
 }
 
 .js {
   width: 10%;
 }
-
 .a-description {
-  color: #fFF;
+  color: #004F66;
+  font-size: 18px;
+  font-weight: 500;
   margin-top: 14px;
   display: flex;
   flex-direction: row;
-  padding: 12px 14px 12px 14px;
-  background-color: #EEF4F5;
+  padding: 8px 10px 8px 10px;
   text-decoration: none;
+  background-color: #DFF7FA;
   border-radius: 6px;
+  margin-right: 20px;
+  transition: 0.6s;
+}
+.a-description:hover {
+  background-color: #FFFFFF;
+  transition: 0.6s;
+}
+.a-link-description {
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.last {
+  border: 0px;
+  margin-bottom: 30px;
+}
+.footer {
+  background-color: #236477;
+  min-height: 120px;
+  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
-  transition: 0.6s;
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
 }
-
-.a-description:hover {
-  background-color: #009FCC;
-  transition: 0.6s;
-}
-
-.a-link-description {
-  margin-right: 0px;
-}
-
-.a-icon-description {
-  width: 50px;
-  height: 50px;
+.footer-text {
+  color: #DBFAFF;
+  font-size: 22px;
+  font-weight: 400;
 }
