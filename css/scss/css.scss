@@ -26,6 +26,7 @@ h2 {
 	font-family: Oswald, sans-serif;
 	font-size: 26px;
 	margin-top: 0px;
+	text-align: right;
 }
 
 h3 {
@@ -36,10 +37,19 @@ h3 {
 	margin-bottom: 10px;
 }
 
+h4 {
+	font-family: Oswald, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 4px;
+	margin-bottom: 10px;
+}
+
 p {
 	font-weight: 400;
 	color: #383838FF;
-	max-width: 500px;
+	max-width: 600px;
+	margin-top: 14px;
 }
 
 ul {
@@ -53,6 +63,7 @@ li {
 .p-light {
 	margin-top: 4px;
 	color: #B7B7B7FF;
+	text-transform: uppercase;
 }
 
 .p-sub {
@@ -60,7 +71,7 @@ li {
 }
 
 .container {
-	width: 1000px;
+	width: 1200px;
 	max-width: 100%;
 	background-color: #fff;
 	margin-left: auto;
@@ -74,13 +85,14 @@ li {
 		display: flex;
 		justify-content: center;
 		flex-direction: row;
-		height: 220px;
+		min-height: 220px;
 		box-sizing: border-box;
 		background-color: #236477;
+		align-items: center;
 
 		.avatar-block {
-			width: 250px;
-			min-width: 250px;
+			width: 310px;
+			min-width: 310px;
 			max-width: 100%;
 			height: 100%;
 			display: flex;
@@ -109,6 +121,8 @@ li {
 				display: flex;
 				justify-content: center;
 				flex-direction: column;
+				min-width: 400px;
+				width: 60%;
 
 				.subtitle {
 					font-family: Rubik, sans-serif;
@@ -122,7 +136,9 @@ li {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
-				align-items: flex-end;				
+				align-items: flex-end;
+				min-width: 270px;
+				width: 40%;			
 
 				.a-top {
 					font-family: Rubik, sans-serif;
@@ -169,9 +185,9 @@ li {
 			padding-bottom: 30px;
 
 			.left-block {
-				width: 220px;
+				width: 280px;
 				max-width: 100%;
-				min-width: 220px;
+				min-width: 280px;
 				padding: 0px 0px 0px 30px;
 				box-sizing: border-box;
 				display: flex;
@@ -182,7 +198,39 @@ li {
 			.block-description {
 				width: 100%;
 				padding: 0px 20px 0px 30px;
+
+				.skills-description {
+					width: 100%;
+					max-width: 100%;
+					display: flex;
+					justify-content: space-between;
+					flex-direction: row;
+					padding-top: 6px;
+					flex-wrap: wrap;
+
+					.col {
+						width: 50%;
+						min-width: 300px;
+
+						.name-skill {}
+
+						.line-skill {
+							background-color: #E0EAE7FF;
+							width: 90%;
+							height: 4px;
+							min-height: 2px;
+							margin-bottom: 20px;
+
+							.line-active {
+								width: 50%;
+								background-color: #51AD91FF;
+								height: 100%;
+							}
+						}
+					}
+				}
 			}
 		}
 	}
 }
+
