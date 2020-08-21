@@ -4,6 +4,7 @@ body {
   padding: 0px 14px 14px 14px;
   margin: 0px;
   background-color: #def0f3;
+  box-sizing: border-box;
 }
 
 a {
@@ -79,6 +80,7 @@ li {
   margin-right: auto;
   margin-top: 0px;
   box-shadow: 8px 8px 27px 0px #17304220;
+  box-sizing: border-box;
 }
 .header {
   width: 100%;
@@ -87,7 +89,6 @@ li {
   justify-content: center;
   flex-direction: row;
   min-height: 220px;
-  box-sizing: border-box;
   background-color: #236477;
   align-items: center;
 }
@@ -345,10 +346,42 @@ li {
   h2 {
     text-align: left;
   }
+  .xd {
+    width: 110%;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .col {
     max-width: 100%;
+  }
+  .xd {
+    width: 110%;
+  }
+  .info-top {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+  .name-post-block {
+    min-width: auto;
+  }
+  h1 {
+    max-width: 100%;
+    width: 340px;
+  }
+  .container {
+    min-width: 350px;
+  }
+  body {
+    padding: 0px;
+  }
+  .avatar-block {
+    max-width: 220px;
+    min-width: 220px;
   }
 }
